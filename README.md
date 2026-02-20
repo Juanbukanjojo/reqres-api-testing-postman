@@ -25,5 +25,4 @@ All POST, PUT, and DELETE responses are simulated.
 **🛠 Tools Used**
 - Postman
 - JavaScript (Postman Test Script)
-
-GitHub
+- GitHub
