@@ -4,11 +4,17 @@
 This project contains API test scenarios built using Postman to validate the functionality of the Reqres mock API service.
 
 **🌐 Base URL**
+
 https://reqres.in/api
 
 **🔐 Authentication**
-Some endpoints require API key or token-based authentication.
-Authentication behavior was validated through positive and negative test scenarios.
+
+Almost all endpoints require an API Key for authorization.
+To obtain the API Key, users must first access the Reqres application dashboard and request API access. Once approved, the API Key can be used in request headers as:
+
+x-api-key: <your_api_key>
+
+Requests without a valid API Key may return an unauthorized response depending on the endpoint configuration.
 
 **🧪 Test Coverage**
 - Authentication (Register & Login)
